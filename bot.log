@@ -1,0 +1,8 @@
+2026-03-19 10:01:29,399 - INFO - Placing order: BTCUSDT, BUY, MARKET
+2026-03-19 10:01:30,377 - ERROR - APIError(code=-4164): Order's notional must be no smaller than 100 (unless you choose reduce only).
+2026-03-19 10:02:13,870 - INFO - Placing order: BTCUSDT, BUY, MARKET
+2026-03-19 10:02:14,729 - INFO - Response: {'orderId': 12873131257, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ624a924f20f1f510da3558', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.005', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1773894735459}
+2026-03-19 10:03:25,000 - INFO - Placing order: BTCUSDT, SELL, LIMIT
+2026-03-19 10:03:25,923 - ERROR - APIError(code=-4024): Limit price can't be lower than 67207.03.
+2026-03-19 10:03:56,860 - INFO - Placing order: BTCUSDT, SELL, LIMIT
+2026-03-19 10:03:57,869 - INFO - Response: {'orderId': 12873146995, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ8340776bb9e781d43eec64', 'price': '68000.00', 'avgPrice': '0.00', 'origQty': '0.005', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1773894838595}
