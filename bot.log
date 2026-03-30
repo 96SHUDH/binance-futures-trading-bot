@@ -6,3 +6,11 @@
 2026-03-19 10:03:25,923 - ERROR - APIError(code=-4024): Limit price can't be lower than 67207.03.
 2026-03-19 10:03:56,860 - INFO - Placing order: BTCUSDT, SELL, LIMIT
 2026-03-19 10:03:57,869 - INFO - Response: {'orderId': 12873146995, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ8340776bb9e781d43eec64', 'price': '68000.00', 'avgPrice': '0.00', 'origQty': '0.005', 'executedQty': '0.000', 'cumQty': '0.000', 'cumQuote': '0.00000', 'timeInForce': 'GTC', 'type': 'LIMIT', 'reduceOnly': False, 'closePosition': False, 'side': 'SELL', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'LIMIT', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1773894838595}
+2026-03-30 17:16:36,712 - ERROR - BinanceClient.__init__() takes 3 positional arguments but 4 were given
+2026-03-30 17:18:42,963 - ERROR - BinanceClient.__init__() takes 3 positional arguments but 4 were given
+2026-03-30 17:21:43,730 - INFO - Placing order: BTCUSDT, BUY, MARKET
+2026-03-30 17:21:44,657 - ERROR - APIError(code=-2014): API-key format invalid.
+2026-03-30 17:30:31,501 - ERROR - 'BinanceClient' object has no attribute 'ping'
+2026-03-30 17:32:31,105 - INFO - Placing order: BTCUSDT, BUY, MARKET
+2026-03-30 17:32:32,330 - INFO - Response: {'orderId': 13011337982, 'symbol': 'BTCUSDT', 'status': 'NEW', 'clientOrderId': 'x-Cb7ytekJ5fddf377f891ceda80ae43', 'price': '0.00', 'avgPrice': '0.00', 'origQty': '0.0050', 'executedQty': '0.0000', 'cumQty': '0.0000', 'cumQuote': '0.000000', 'timeInForce': 'GTC', 'type': 'MARKET', 'reduceOnly': False, 'closePosition': False, 'side': 'BUY', 'positionSide': 'BOTH', 'stopPrice': '0.00', 'workingType': 'CONTRACT_PRICE', 'priceProtect': False, 'origType': 'MARKET', 'priceMatch': 'NONE', 'selfTradePreventionMode': 'EXPIRE_MAKER', 'goodTillDate': 0, 'updateTime': 1774872152664}
+2026-03-30 17:40:57,511 - ERROR - APIError(code=-2011): Unknown order sent.
